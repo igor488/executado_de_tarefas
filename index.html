@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com Robozinho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            Olá, escreva o que precisa para o robô poder te ajudar
+        </div>
+        <h1>Chat com Robozinho</h1>
+        <div id="chat-box"></div>
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <select id="action-select">
+                <option value="pesquisa">Pesquisa</option>
+                <option value="pyautogui">Point</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
